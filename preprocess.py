@@ -2,8 +2,11 @@ import nltk
 import re
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+import os
 
-
+# Explicit NLTK data path (Render-safe)
+NLTK_DATA_DIR = os.path.join(os.getcwd(), "nltk_data")
+nltk.data.path.append(NLTK_DATA_DIR)
 
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
