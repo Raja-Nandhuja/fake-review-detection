@@ -14,3 +14,5 @@
 
 5. Test API (POST):
    http://127.0.0.1:5000/predict
+## 🚀 Live Project
+[🔗 https://your-project-link.com](https://fake-review-detection-dmd3.onrender.com/)
